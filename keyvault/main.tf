@@ -27,6 +27,6 @@ module "keyvault" {
 
 module "resource_group" {
   source                  = "../../modules/resource_group"
-  resource_group_name     = "rg-gcssre-dev-kv-datadog-je"
+  resource_group_name     = "rg-keyvault1"
   resource_group_location = "japaneast"
 }

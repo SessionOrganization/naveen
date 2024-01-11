@@ -1,5 +1,5 @@
 module "keyvault" {
-  source         = "../../../modules/azure/keyvault"
+  source         = "../../modules/azure/keyvault"
   key_vault_name = "kv-gcssre-dev-datadog"
   location       = "japaneast"
   bypass         = "AzureServices"
